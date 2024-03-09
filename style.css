@@ -1,15 +1,32 @@
+.container{
+    margin: 10px;
+}
+.logo {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 0%;
+
+    
+}
 .heading{
-    text-indent: 15%;
-    margin-top: 25px ;
+    text-overflow: clip;
+    margin-top: 15px ;
     font-size: 150px;
+    padding-left: 0%;
 
 
     font-family: "Island Moments", cursive;
     font-weight: 550;
     font-style: normal;
 }
-.logo{
-    position: absolute;
-    margin-top: 0%;
+
+.sidenav{
+    background-color: black;
+    background-position-x: left;
+    max-width: 300px;
+    height: 100%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
     
 }
