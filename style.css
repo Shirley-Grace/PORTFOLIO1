@@ -50,8 +50,8 @@ ul li{
 ul li a{
     
     border: 2px solid transparent;
-    margin-right: 30PX;
-    margin-left: 20px;
+    margin-right: 10PX;
+    margin-left: 10px;
     top: 40%;
     color: black;
     font-size: 35px;
@@ -69,6 +69,8 @@ ul li a:hover{
     margin: 0%;
     width: 80px;
     height: 120px;
+    image-rendering: crisp-edges;
+
 }
 
 .main{
@@ -201,6 +203,7 @@ margin-left: 750px;
     padding-left: 50px;
     margin-left: -350px;
     margin-top: -60px;
+    font-weight: lighter;
 }
 .footercontainer1{
     border: 1px solid transparent;
@@ -253,10 +256,18 @@ margin-left: 750px;
 
 }
 
-/**/
+/*gallery*/
 
-
-
+.gallery{
+    display: inline-table;
+    border: 3px solid white;
+    border-radius: 30px;
+    width: 1500px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
 
 
 
