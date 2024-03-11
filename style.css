@@ -20,6 +20,8 @@
     color: beige;
     font-size: 27px;
 }
+
+/*homepage*/
 .btn{
 
     font-family: "Boogaloo";
@@ -29,47 +31,45 @@
 
 }
 header{
-    margin-top: 320px;
-    height: 200px;
+    margin-top: 230px;
+    height: 120px;
     background-color: beige;
     background-size: cover;
-    background-position: center;
     min-height : 100px;
-    max-width: auto;
+    width: auto;
 }
-ul{
-    list-style-type: none;
-    margin-right: 20px;
-}
+
 ul li{
-    display: inline-block;
     padding: 0%;
     float: right;
-    margin-bottom: 20px;  
+    margin-bottom: 20px; 
+    width: auto;
+
 
 }
 
 ul li a{
     
     border: 2px solid transparent;
-    margin-right: 40PX;
+    margin-right: 30PX;
     margin-left: 20px;
+    top: 40%;
     color: black;
     font-size: 45px;
-    margin-bottom: 30px;
-    
+  
 }
 
 ul li a:hover{
-    background-color: black;
+    background-color:#77754C;
     color: beige;
 }
 
 .logo img{
-    position: fixed right ;
+    position: absolute;
+    top: 0;
     margin: 0%;
-    width: 120px;
-    height: 150px;
+    width: 80px;
+    height: 120px;
 }
 
 .main{
@@ -86,15 +86,87 @@ ul li a:hover{
 
 }
 .title h1{
-    font-size: 300px;
-    position: absolute;
+    font-size: 250px;
+    position:absolute;
+    top: 0;
+    left: 5%;
+    padding: 0px;
+}
+
+.body{
+    background-image: url(Assets\bgimg.jpg);
+    background-size: cover;
+    position: relative;
+    margin: 50px 20px;
+    width: 100%;
+    
+}
+.intro{
+    font-family: "Boogaloo";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
     text-align: left;
-    top: 0%;
-    float: left;
+    margin-top: -300px;
+    margin-left: 100px;
+
+}
+.intro2{
+    font-family: "Boogaloo";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+    text-align: right;
+    margin-top: -350px;
+    margin-right:200px;
+
+}
+.footercontainer{
+    width: 100%;
+
+}
+.icons:hover{
+    display: flex;
+    color: beige;
+    
+}
+.icons{
+    display: inline;
+    justify-content: center;
+}
+.icons a{
+    text-decoration: none;
+    padding: 30px;
+    background-color: #77754C;
+    border: 1px solid white;
+    border-width: 70px;
+    border-bottom: 10px;
+    border-right-width: 200px;
+
 }
 
 
 
+
+
+
+
+
+
+
+/*education*/
+
+.back{
+    background-image: url(Assets\bgimage.jpg);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
 
 
 
