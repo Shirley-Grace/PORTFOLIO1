@@ -20,3 +20,53 @@
     color: beige;
     font-size: 27px;
 }
+.btn{
+
+    font-family: "Boogaloo";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+
+}
+header{
+    height: 300px;
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    min-height : 100px;
+    width: auto;
+}
+ul{
+    list-style-type: none;
+    margin-right: 20px;
+}
+ul li{
+    display: inline-block;
+    padding: 0%;
+
+}
+ul li.logo{
+    margin-right: 100px;
+    margin-left: 0px;
+    padding: 0;
+    margin-bottom: 100px;
+
+}
+ul li.name{
+    color: black;
+    margin-right: 10px;
+    font-size: 100px;
+    color: black;
+    margin-right: 50px;
+    font-size: 200px;
+    font-family: "Island Moments";
+    font-weight: 400;
+    font-style: normal;
+      
+}
+ul li a{
+    margin-left: 25PX;
+    margin-right: 25PX;
+    font-size: 45px;
+    padding: 0;
+}
