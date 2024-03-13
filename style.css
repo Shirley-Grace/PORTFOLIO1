@@ -255,21 +255,17 @@ margin-left: 750px;
     }
 
 }
-
-/*gallery*/
-
 .gallery{
-    display: inline-table;
-    border: 3px solid white;
-    border-radius: 30px;
-    width: 1500px;
+    margin-left: 350px;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
-.gallery img{
-    width: 100%;
-    height: auto;
+.table.table-boardered{
+
+    border-width: 50px;
+    border-radius: 35px;
+    margin: 40px;
 }
-
-
 
 
 
